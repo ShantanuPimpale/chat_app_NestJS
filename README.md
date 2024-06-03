@@ -40,6 +40,23 @@ The Chat Application is a real-time messaging platform that allows users to regi
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Dependencies
+Here are the main dependencies used in this project:
+
+- @nestjs/common: Common utilities for NestJS applications.
+- @nestjs/core: Core NestJS framework.
+- @nestjs/jwt: JWT utilities for NestJS.
+- @nestjs/mongoose: Mongoose module for NestJS.
+- @nestjs/passport: Passport utilities for NestJS.
+- @nestjs/platform-express: Express platform adapter for NestJS.
+- @nestjs/websockets: WebSockets utilities for NestJS.
+- bcrypt: Library to hash passwords.
+- mongoose: MongoDB object modeling tool.
+- passport: Authentication middleware for Node.js.
+- passport-jwt: Passport strategy for authenticating with a JSON Web Token.
+- passport-local: Passport strategy for authenticating with a username and password.
+- socket.io: Library for real-time web applications.
+
 ## Installation
 1) Clone the repository from GitHub:
 2) cd chat-application
@@ -74,7 +91,7 @@ The Chat Application is a real-time messaging platform that allows users to regi
 
 3) Create two socket.io requests on Postman.
    URL: ws://localhost:3000
-   Provide access token in the Header part.
+   Add an Authorization header with the value Bearer <JWT_TOKEN>.
    Provide a Message in the 'Message' body.
 
 
