@@ -89,12 +89,6 @@ Send and receive real-time messages through the socket.io connection in the term
 
 Nest is an MIT-licensed open-source project. It can grow thanks to the sponsors and support of the amazing backers. If you want to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
 ## License
 
 Nest is [MIT licensed](LICENSE).
